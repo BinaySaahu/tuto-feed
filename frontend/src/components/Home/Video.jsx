@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react';
 import thumbnail from '../../../public/thumbnail.jpg'
+import Link from 'next/link';
 
 const Video = () => {
   return (
@@ -14,7 +15,7 @@ const Video = () => {
                 <Image src={thumbnail} alt='Channel-logo' className='w-8 h-8 rounded-full'/>
                 <p className='text-lg'>Video Title</p>
             </div>
-            <a href='/' className='text-sm hover:text-[#2A2F5B]'>Channel Name</a>
+            <Link href='/' className='text-sm hover:text-[#2A2F5B]'>Channel Name</Link>
             <div className='flex items-center gap-2'>
                 <p className='text-xs'>20 Views</p>
                 <div className='bg-gray-300 rounded-full w-1 h-1'></div>
