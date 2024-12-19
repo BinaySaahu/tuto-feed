@@ -6,7 +6,7 @@ import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-gradient-to-b from-[#F4F4F4] to-[#fff]">
       <NavBar/>
       <div className="home-content">
         <FilterTags/>

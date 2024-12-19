@@ -14,7 +14,7 @@ const NavBar = () => {
     setShowModal(true);
   }
   return (
-    <div className="flex items-center justify-center fixed top-0 left-0 w-full bg-purple-800 text-black">
+    <div className="flex items-center justify-center fixed top-0 left-0 w-full bg-[#2A2F5B] text-[#3A3A3C]">
       <ul className="navItems flex itmes-center justify-between w-full p-2">
         <li className="flex items-center gap-5">
           <div>
@@ -24,10 +24,10 @@ const NavBar = () => {
         <li className="lg:flex hidden items-stretch w-full justify-center">
           <input
             placeholder="Search"
-            className="w-1/2 p-2 rounded-l-full border border-l-black border-b-black border-t-black "
+            className="w-1/2 p-2 rounded-l-full border border-l-gray-200/[20%] border-b-gray-200/[20%] border-t-gray-200/[20%] border-r-0 bg-transparent focus:border-0 text-white/[80%]"
           />
-          <button className="bg-gray-200 p-4 rounded-r-full flex items-center">
-            <IoSearchSharp />
+          <button className="bg-gray-200/[20%] p-4 rounded-r-full flex items-center">
+            <IoSearchSharp color="white"/>
           </button>
         </li>
         <li className="flex items-center gap-5">
